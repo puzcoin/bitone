@@ -1,0 +1,26 @@
+[Unit]
+Description=Bone's distributed currency daemon
+After=network.target
+
+[Service]
+User=bone
+Group=bone
+
+Type=forking
+PIDFile=/var/lib/boned/boned.pid
+
+ExecStart=/usr/bin/boned -daemon -pid=/var/lib/boned/boned.pid \
+          -conf=/etc/bone/Bitone.conf -datadir=/var/lib/boned
+
+ExecStop=-/usr/bin/bone-cli -conf=/etc/bone/Bitone.conf \
+         -datadir=/var/lib/boned stop
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

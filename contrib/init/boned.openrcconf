@@ -1,0 +1,26 @@
+# /etc/conf.d/boned: config file for /etc/init.d/boned
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/bone/Bitone.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/boned"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/boned.pid"
+
+# Where to write boned data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/boned"
+
+# User and group to own boned process
+#BITCOIND_USER="bone"
+#BITCOIND_GROUP="bone"
+
+# Path to boned executable
+#BITCOIND_BIN="/usr/bin/boned"
+
+# Nice value to run boned under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""

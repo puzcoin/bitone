@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bone-Qt (Reindex)
+Comment=Bone P2P gaming related cryptocurrency
+Comment[fr]=Bone, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bone, eşten eşe kriptografik sanal para birimi
+Exec=bone-qt --reindex %u
+Terminal=false
+Type=Application
+Icon=bone128
+MimeType=x-scheme-handler/bone;
+Categories=Office;Finance;

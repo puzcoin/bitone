@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bone-Qt Unit test
+Comment=Bone P2P gaming related cryptocurrency - UNITTEST
+Comment[fr]=Bone unittest, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bone unittest, eşten eşe kriptografik sanal para birimi
+Exec=bone-qt --unittest %u
+Terminal=false
+Type=Application
+Icon=bone128-unittest
+MimeType=x-scheme-handler/bone;
+Categories=Office;Finance;

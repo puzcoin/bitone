@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bone-Qt Regtest
+Comment=Bone P2P gaming related cryptocurrency - REGTEST
+Comment[fr]=Bone regtest, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bone regtest, eşten eşe kriptografik sanal para birimi
+Exec=bone-qt --regtest %u
+Terminal=false
+Type=Application
+Icon=bone128-regtest
+MimeType=x-scheme-handler/bone;
+Categories=Office;Finance;

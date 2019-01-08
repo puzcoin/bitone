@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Bone-Qt Testnet
+Comment=Bone P2P gaming related cryptocurrency - TESTNETWORK
+Comment[fr]=Bone testnet, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Bone testnet, eşten eşe kriptografik sanal para birimi
+Exec=bone-qt --testnet %u
+Terminal=false
+Type=Application
+Icon=bone128-testnet
+MimeType=x-scheme-handler/bone;
+Categories=Office;Finance;

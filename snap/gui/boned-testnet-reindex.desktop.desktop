@@ -1,0 +1,15 @@
+# http://standards.freedesktop.org/desktop-entry-spec/desktop-entry-spec-1.0.html
+
+[Desktop Entry]
+Type=Application
+Version=3.0.0
+Encoding=UTF-8
+Name=Bone Daemon Testnet (reindex)
+Icon=${SNAP}/boned128testnet.png
+MimeType=x-scheme-handler/bone;
+Exec=boned %u --testnet --reindex
+Terminal=true
+Categories=Office;Finance;Cryptocurrency;
+Comment=🗺️Bone Digital Currency Testnet Daemon (reindex) 👯👯 👛 (by 🐼CEVAP🐼) CE source code (Community Edition)
+Keywords=internet;bone;testnet;daemon;server;crypto;currency;snap;snapcraft;reindex;
+Name[de_DE]=boned-testnet-reindex.desktop.desktop
